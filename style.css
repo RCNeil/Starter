@@ -1,0 +1,127 @@
+*,:after,:before{-moz-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
+
+:root {
+	
+}
+
+html {
+	font-size:18px;
+}
+
+body {
+	margin:0px; padding:0px;
+	font-family: Arial, sans-serif;
+	background:#fff;
+	color:#000;
+} 
+div { 
+	display:block; 
+	position:relative; 
+	margin:0px; 
+	padding:0px; 
+}
+.body-wrapper {
+	max-width:100%;
+	width:100%; 
+	overflow:hidden; 
+}
+.container {
+	float:none; 
+	clear:both; 
+	margin:0; 
+	padding:0;
+	width:100%; 
+	height:auto; 	
+}
+.padded-container {
+	padding:3rem 0px;
+}
+.row {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+	align-items:stretch;
+	margin:0 auto; 
+	padding:0; 
+	width:100%; height:auto; 
+	max-width:1080px; 
+}
+div[class*='span'] {
+	margin:0px auto; 
+	padding:1.5rem; 
+}
+.span5 { width:5%; }
+.span10 { width:10%; }
+.span15 { width:15%; }
+.span20 { width:20%; }
+.span25 { width:25%; }
+.span30 { width:30%; }
+.span33 { width:33%; }
+.span35 { width:35%; }
+.span40 { width:40%; }
+.span45 { width:45%; }
+.span50 { width:50%; }
+.span55 { width:55%; }
+.span60 { width:60%; }
+.span65 { width:65%; }
+.span66 { width:66%; }
+.span70 { width:70%; }
+.span75 { width:75%; }
+.span80 { width:80%; }
+.span85 { width:85%; }
+.span90 { width:90%; }
+.span100 { width:100%; }
+
+h1 {
+	font-size:3rem;
+	line-height:135%;
+	margin:1.5rem auto;
+}
+
+h2 {
+	font-size:2.4rem;
+	line-height:135%;
+	margin:1.5rem auto;
+}
+
+h3 {
+	font-size:1.8rem;
+	line-height:135%;
+	margin:1.5rem auto;
+}
+
+h4 {
+	font-size:1.4rem;
+	line-height:135%;
+	margin:1rem auto;
+}
+
+p, ul li {
+	font-size:1.1rem;
+	line-height:140%;
+	margin:1.1rem;
+	padding:0;
+}
+a {
+	transition: 180ms ease all; 
+	text-decoration:none;
+	color:#336699;
+}
+a:hover {
+	color:#000000;
+}
+img {
+	display:inline-block; 
+	max-width:100%; 
+	height:auto; 
+	border:0px;
+	padding:0px;
+	margin:0px auto;
+}
+small {font-size:70%;}
+.bold, strong {font-weight:bold;}
+.italic, em { font-style:italic;}
+.hidden { display:none; }
+.clear {	clear:both; float:none; display:block; position:relative; }
+.text-center { text-align:center; }
+.text-right { text-align:right; } 
