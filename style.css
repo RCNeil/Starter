@@ -125,3 +125,39 @@ small {font-size:70%;}
 .clear {	clear:both; float:none; display:block; position:relative; }
 .text-center { text-align:center; }
 .text-right { text-align:right; } 
+
+input, textarea {
+   	box-sizing: border-box;
+	display:block;
+	max-width:100%;
+	width:100%;
+	height:auto;
+	padding:0.85rem 1.25rem;
+	margin:0.5rem auto; 
+	font-size:1rem;
+	line-height:100%;	
+	border:1px #ccc solid; 
+}
+
+a.button, 
+input[type="submit"] {
+	display:inline-block; 
+	position:relative;
+	margin:1rem auto; 
+	padding:10px 34px;
+	width:auto; 
+	height:auto;	
+	font-size:1.1rem; 
+	line-height:100%;
+	text-transform:uppercase;
+	border:0px;	
+	background:#336699;
+	color:#000;	
+	transition:240ms;
+}
+
+a.button:hover, 
+input[type="submit"]:hover {
+	background:#000000;
+	color:#fff;
+}
