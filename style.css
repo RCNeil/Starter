@@ -99,7 +99,7 @@ h4 {
 p, ul li {
 	font-size:1.1rem;
 	line-height:140%;
-	margin:1.1rem;
+	margin:1.1rem 0;
 	padding:0;
 }
 a {
@@ -160,4 +160,43 @@ a.button:hover,
 input[type="submit"]:hover {
 	background:#000000;
 	color:#fff;
+}
+
+.builtby {
+    width: 120px;
+	max-width:100%;
+    padding: 1rem 0;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    clear: both;
+    z-index: 100;
+    opacity: 0.45;
+}
+
+.builtby svg {
+	width:100%;
+	height:auto;
+	display:block;
+	position:relative;
+}
+
+.builtby:hover {
+	-webkit-animation:shake .2s 1;
+	animation: shake .2s 1;
+	opacity:1.0; 
+}
+
+@keyframes shake {
+	0% { transform: translate(2px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(0px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(2px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(2px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
