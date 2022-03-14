@@ -15,6 +15,23 @@
 
 
 	<h1>Hello.</h1>
+	
+	
+	
+	<div class="footer container" role="contentinfo">
+		<div class="row">
+			<div class="span100">
+				<p class="copyright">&copy; <?php echo date('Y'); ?> All Rights Reserved</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span20 text-center">
+				<a href="https://squatch.us"  class="builtby" target="_blank" title="Built By Squatch Creative">
+					<?php require_once('images/built-by-squatch.html'); ?>
+				</a>
+			</div>
+		</div>
+	</div>
 
 	<!-- JS -->
 	<script src="assets/jquery-3.6.0.min.js" type="text/javascript"></script>
